@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+}
+
+#page-wrap {
+  min-height: 100%;
+}
+
+#heading {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .45);
+  border-radius: 20px;
+  z-index: 1;
+  top: 25%;
+  left: 10%;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.35);
+  position: absolute;
+  padding: 15px 20px;
+}
+
+#bg-pic {
+  height: 100%;
+  background-image: url('../img/bg.jpg');
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+}
