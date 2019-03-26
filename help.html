@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="GetShifted.app - Privacy">
+    <meta name="description" content="GetShifted.app - Help">
     <meta name="author" content="Tech Butler">
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
@@ -26,7 +26,7 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <title>GetShifted.app - Privacy</title>
+    <title>GetShifted.app - Help</title>
 
     <link href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 
@@ -48,18 +48,32 @@
         <nav>
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="nav-item"><a href="/" class="nav-link">Home</a></li>
-            <li role="presentation" class="nav-item"><a href="help.html" class="nav-link">Help</a></li>
-            <li role="presentation" class="nav-item"><a href="privacy.html" class="nav-link active">Privacy</a></li>
+            <li role="presentation" class="nav-item"><a href="help.html" class="nav-link active">Help</a></li>
+            <li role="presentation" class="nav-item"><a href="privacy.html" class="nav-link">Privacy</a></li>
           </ul>
         </nav>
-        <h3 class="text-muted">Shifted - Privacy</h3>
+        <h3 class="text-muted">Shifted - Help</h3>
       </div>
 
       <div class="row">
         <div class="col-lg-12">
-          <p>We take your privacy seriously. </p>
-          <p>We do not track any information from the Shifted app. You are free to use it as you wish without worry. </p>
-          <p>Thanks for using Shifted!</p>
+          <h4>What is Shifted?</h4>
+          <p>Shifted is a Mac application intended to increase your productivity by allowing you to self-assign a task to your Caps Lock key, while delegating the Caps Lock function to the Shift keys. Shifted runs in the background and, besides changing the preferences every so often, will require no additional input from you. </p>
+
+          <h4>Caps Lock Actions</h4>
+          <p>
+            <ul>
+              <li><em>Previous Application</em> - Switch to the previous application that had focus. </li>
+              <li><em>New Tab</em> - Open up a new tab in the current active application, (<pre>⌘ + t</pre>). </li>
+              <li><em>Launcher</em> - Open a Spotlight search menu, (<pre>⌘ + t</pre>). </li>
+              <li><em>Smart Copy & Paste</em> - If something has been copied in the past 30 seconds, pressing Caps Lock will trigger a paste command, otherwise, it will trigger a copy command. </li>
+              <li><em>Toggle Mute</em> - Toggle mute! </li>
+              <li><em>Open Finder</em> - Open a new Finder window and bring focus to it. </li>
+              <li><em>Emoji Selector</em> - Open an Emoji selector window 😄</li>
+              <li><em>Run AppleScript</em> - Select an AppleScript file to be triggered when Caps Lock is pressed. Note that due to Apple's macOS App Sandbox restrictions, the selected AppleScript has to be located in the ~/Library/Application Scripts/* folder. <a href="https://developer.apple.com/documentation/foundation/nsuserapplescripttask" target="_blank" rel="noopener noreferrer">More information here</a>. </li>
+              <li><em>Search Selected Text</em> - Once you select a search engine, pressing the Caps Lock key will trigger a copy command, and open a search for the copied text in your default browser. You can customize the search URL as you'd like, we simply replace '%s' with the copied text. For some examples, try Google's I'm Feeling Lucky: <pre>http://www.google.com/search?q=%s&btnI</pre>, or Wikipedia's search: <pre>https://en.wikipedia.org/wiki/Special:Search/%s</pre>. </li>
+            </ul>
+          </p>
         </div>
       </div>
 
