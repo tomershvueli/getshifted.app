@@ -63,6 +63,24 @@ pre {
   margin-top: 28px;
 }
 
+#actions-table {}
+#actions-table .row {padding-bottom: 10px;}
+
+#actions-table strong {display: block; text-align: center;}
+#actions-table em {display: block; text-align: center; margin-bottom: 4px;}
+#actions-table td .info-wrap {}
+#actions-table td p {display: block;}
+#actions-table td .icon-wrap {margin-top: 8px; text-align: center; font-size: 35px;}
+#actions-table td .icon-wrap i {color: #888;}
+
+i.fas.fa-info-circle {
+  cursor: pointer;
+}
+
+.popover {
+  max-width: 450px;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
