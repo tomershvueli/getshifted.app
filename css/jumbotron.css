@@ -66,12 +66,13 @@ pre {
 #what-is-shifted {margin-bottom: 12px;}
 
 #actions-table {}
+#actions-table .row {margin-bottom: 8px; padding-top: 6px; border: none;}
 #actions-table strong {display: block; text-align: center;}
 #actions-table em {display: block; text-align: center; margin-bottom: 4px;}
-#actions-table td div {text-align: center;}
-#actions-table td div #emoji-wrap {font-size: 28px;}
-#actions-table td .icon-wrap {display: block; margin-bottom: 8px; text-align: center; font-size: 35px;}
-#actions-table td .icon-wrap i {color: #888;}
+#actions-table .action div {text-align: center;}
+#actions-table .action div #emoji-wrap {font-size: 28px;}
+#actions-table .action .icon-wrap {display: block; margin-bottom: 8px; text-align: center; font-size: 35px;}
+#actions-table .action .icon-wrap i {color: #888;}
 
 i.fas.fa-info-circle {
   cursor: pointer;
@@ -98,4 +99,8 @@ i.fas.fa-info-circle {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+@media screen and (min-width: 992px) {
+  #actions-table .row {border-top: 1px solid #ccc;}
 }

@@ -71,114 +71,113 @@
           letting you focus on the important things. </div>
 
         <h4 id="actions">Caps Lock Actions</h4>
-        <div class="container-fluid">
-          <!-- TODO mobile friendly table, hide info popup on mobile -->
-          <table class="table" id="actions-table">
-            <tbody>
-              <tr class="d-flex">
-                <td class="col-4">
-                  <span class="icon-wrap"><i class="fas fa-exchange-alt"></i></span>
-                  <div class="info-wrap">
-                    <strong>Previous Application</strong>
-                    <em>(For the multi-tasker)</em>
-                    <div>Switch to the previous
-                    application that had focus.</div>
-                  </div>
-                </td>
-                <td class="col-4">
-                  <span class="icon-wrap"><i class="fas fa-external-link-alt"></i></span>
-                  <div class="info-wrap">
-                    <strong>New Tab</strong>
-                    <em>(For the surfer)</em>
-                    <div>Open up a new tab in the current active application,
-                    (<pre>⌘ + t</pre>).</div>
-                  </div>
-                </td>
-                <td class="col-4">
-                  <span class="icon-wrap"><i class="fas fa-rocket"></i></span>
-                  <div class="info-wrap">
-                    <strong>Spotlight</strong>
-                    <em>(For the multi-tasker)</em>
-                    <div>Open a Spotlight search menu, (<pre>⌘ + Space</pre>).</div>
-                  </div>
-                </td>
-              </tr>
-              <tr class="d-flex">
-                <td class="col-4">
-                  <span class="icon-wrap"><i class="fas fa-copy"></i></span>
-                  <div class="info-wrap">
-                    <strong>Smart Copy & Paste</strong>
-                    <em>(For the developer)</em>
-                    <div>Alternate between copy and paste commands. This allows for quick transfer of information from one
-                    application to another.</div>
-                  </div>
-                </td>
-                <td class="col-4">
-                  <span class="icon-wrap"><i class="fas fa-volume-mute"></i></span>
-                  <div class="info-wrap">
-                    <strong>Toggle Mute</strong>
-                    <em>(For the media-phile)</em>
-                    <div>Toggle mute!</div>
-                  </div>
-                </td>
-                <td class="col-4">
-                  <span class="icon-wrap"><i class="fas fa-folder-open"></i></span>
-                  <div class="info-wrap">
-                    <strong>Open Finder</strong>
-                    <em>(For the document manager)</em>
-                    <div>Open a new Finder window and bring
-                    focus to it.</div>
-                  </div>
-                </td>
-              </tr>
-              <tr class="d-flex">
-                <td class="col-4">
-                  <span class="icon-wrap"><i class="fas fa-smile"></i></span>
-                  <div class="info-wrap">
-                    <strong>Emoji Selector</strong>
-                    <em>(For the avid messenger)</em>
-                    <div>Open an easy-access Emoji selector window<br /><span id="emoji-wrap">😝😄🙃😉</span></div>
-                  </div>
-                </td>
-                <td class="col-4">
-                  <span class="icon-wrap"><i class="fas fa-paragraph"></i></span>
-                  <div class="info-wrap">
-                    <strong>Type Text</strong>
-                    <em>(For the content editor)</em>
-                    <div>Set any text that you want to be typed out
-                    for you when you hit the Caps Lock key.</div>
-                  </div>
-                </td>
-                <td class="col-4">
-                  <span class="icon-wrap"><i class="fas fa-code"></i></span>
-                  <div class="info-wrap">
-                    <strong>Run AppleScript</strong>
-                    <em>(For the power user)</em>
-                    <div>Select an AppleScript file to be
-                    triggered when Caps Lock is pressed.</div>
-                  </div>
-                </td>
-              </tr>
-              <tr class="d-flex">
-                <td class="col-4">
+        <div class="container-fluid" id="actions-table">
+          <div class="row">
+            <div class="action col-lg-4 col-sm-12">
+              <span class="icon-wrap"><i class="fas fa-exchange-alt"></i></span>
+              <div class="info-wrap">
+                <strong>Previous Application</strong>
+                <em>(For the multi-tasker)</em>
+                <div>Switch to the previous
+                application that had focus.</div>
+              </div>
+            </div>
+            <div class="action col-lg-4 col-sm-12">
+              <span class="icon-wrap"><i class="fas fa-external-link-alt"></i></span>
+              <div class="info-wrap">
+                <strong>New Tab</strong>
+                <em>(For the surfer)</em>
+                <div>Open up a new tab in the current active application,
+                (<pre>⌘ + t</pre>).</div>
+              </div>
+            </div>
+            <div class="action col-lg-4 col-sm-12">
+              <span class="icon-wrap"><i class="fas fa-rocket"></i></span>
+              <div class="info-wrap">
+                <strong>Spotlight</strong>
+                <em>(For the multi-tasker)</em>
+                <div>Open a Spotlight search menu, (<pre>⌘ + Space</pre>).</div>
+              </div>
+            </div>
+          </div>
 
-                </td>
-                <td class="col-4">
-                  <span class="icon-wrap"><i class="fas fa-search"></i></span>
-                  <div class="info-wrap">
-                    <strong>Search Selected Text</strong>
-                    <em>(For the knowledge-seeker)</em>
-                    <div>Copy the selected text and start a search for the text
-                    in your default browser. You can customize the search URL by using '%s' for
-                    the copied text. <i class="fas fa-info-circle" data-toggle="popover" data-html="true" data-placement="top" data-content="For some examples, try Google's I'm Feeling Lucky: &lt;pre&gt;http://www.google.com/search?q=%s&btnI&lt;/pre&gt;, or Wikipedia's search: &lt;pre&gt;https://en.wikipedia.org/wiki/Special:Search/%s&lt;/pre&gt;."></i></div>
-                  </div>
-                </td>
-                <td class="col-4">
+          <div class="row">
+            <div class="action col-lg-4 col-sm-12">
+              <span class="icon-wrap"><i class="fas fa-copy"></i></span>
+              <div class="info-wrap">
+                <strong>Smart Copy & Paste</strong>
+                <em>(For the developer)</em>
+                <div>Alternate between copy and paste commands. This allows for quick transfer of information from one
+                application to another.</div>
+              </div>
+            </div>
+            <div class="action col-lg-4 col-sm-12">
+              <span class="icon-wrap"><i class="fas fa-volume-mute"></i></span>
+              <div class="info-wrap">
+                <strong>Toggle Mute</strong>
+                <em>(For the media-phile)</em>
+                <div>Toggle mute!</div>
+              </div>
+            </div>
+            <div class="action col-lg-4 col-sm-12">
+              <span class="icon-wrap"><i class="fas fa-folder-open"></i></span>
+              <div class="info-wrap">
+                <strong>Open Finder</strong>
+                <em>(For the document manager)</em>
+                <div>Open a new Finder window and bring
+                focus to it.</div>
+              </div>
+            </div>
+          </div>
 
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="row">
+            <div class="action col-lg-4 col-sm-12">
+              <span class="icon-wrap"><i class="fas fa-smile"></i></span>
+              <div class="info-wrap">
+                <strong>Emoji Selector</strong>
+                <em>(For the avid messenger)</em>
+                <div>Open an easy-access Emoji selector window<br /><span id="emoji-wrap">😝😄🙃😉</span></div>
+              </div>
+            </div>
+            <div class="action col-lg-4 col-sm-12">
+              <span class="icon-wrap"><i class="fas fa-paragraph"></i></span>
+              <div class="info-wrap">
+                <strong>Type Text</strong>
+                <em>(For the content editor)</em>
+                <div>Set any text that you want to be typed out
+                for you when you hit the Caps Lock key.</div>
+              </div>
+            </div>
+            <div class="action col-lg-4 col-sm-12">
+              <span class="icon-wrap"><i class="fas fa-code"></i></span>
+              <div class="info-wrap">
+                <strong>Run AppleScript</strong>
+                <em>(For the power user)</em>
+                <div>Select an AppleScript file to be
+                triggered when Caps Lock is pressed.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="action col-lg-4 col-sm-12">
+
+            </div>
+            <div class="action col-lg-4 col-sm-12">
+              <span class="icon-wrap"><i class="fas fa-search"></i></span>
+              <div class="info-wrap">
+                <strong>Search Selected Text</strong>
+                <em>(For the knowledge-seeker)</em>
+                <div>Copy the selected text and start a search for the text
+                  in your default browser. You can customize the search URL by using '%s' for
+                  the copied text. <i class="fas fa-info-circle d-none d-md-inline-block" data-toggle="popover" data-html="true" data-placement="top" data-content="For some examples, try Google's I'm Feeling Lucky: &lt;pre&gt;http://www.google.com/search?q=%s&btnI&lt;/pre&gt;, or Wikipedia's search: &lt;pre&gt;https://en.wikipedia.org/wiki/Special:Search/%s&lt;/pre&gt;."></i>
+                </div>
+              </div>
+            </div>
+            <div class="action col-lg-4 col-sm-12">
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
