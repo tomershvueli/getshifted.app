@@ -34,7 +34,7 @@ a:link, a:hover, a:visited, a:active {
 }
 .imageWrapper {
     height: 714px;
-    background: linear-gradient(rgba(54, 59, 61, 0.8),  rgba(54, 59, 61, 0.8)), url("../img/headerimage.jpeg");
+    background: linear-gradient(rgba(54, 59, 61, 0.8),  rgba(54, 59, 61, 0.8)), url("../img/header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
