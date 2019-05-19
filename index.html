@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta name="description" content="Shifted - Productivity within a Pinky's Reach" />
-    <meta name="keyword" content="Tomer, Shvueli, landing page, resume" />
+    <meta name="description" content="Shifted - Productivity within a Pinky's Reach. Double tap Shift key for Caps Lock" />
+    <meta name="keyword" content="double tap shift key for caps lock, shift, caps lock, productivity, productivity within a pinky's reach" />
     <meta name="author" content="Tech Butler" />
 
     <meta property="og:title" content="Shifted" />
@@ -35,7 +35,7 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <title>Shifted - Productivity within a Pinky's Reach</title>
+    <title>Shifted - Productivity within a Pinky's Reach. Double tap Shift key for Caps Lock</title>
 
     <link href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 
@@ -82,14 +82,13 @@
               </clipPath>
             </svg>
 
-            <div class="videoContainer hidden">
+            <div class="videoContainer">
               <video class="screenvideo" autoplay="autoplay" controls="controls">
+                  <source src="{{ site.github.baseurl }}{{ file.path }}" type="video/mp4">
               </video>
             </div>  
               
             <img class="iphoneScreen hidden" src="" alt="">
-
-            {% include screencontent.html %}
 
           </div>
           <div class="appInfo">
@@ -118,6 +117,7 @@
             </div>
             <div class="downloadButtonsContainer">
               <a class="btn btn-light btn-lg" href="https://dl.devmate.com/com.techbutler.Shifted/beta/Shifted.dmg" role="button" id="download-btn">Download Now <i class="iconTop fas fa-file-download fa-stack-1x"></i></a>
+              <a class="btn btn-light btn-lg" href="help.html" role="button">Learn More</a>
             </div>
           </div>
           <div class="features">
@@ -148,7 +148,7 @@
               </div>
               <div class="featureText">
                 <h3>
-                  Caps Lock a la your Phone
+                  Double Shift for Caps Lock
                 </h3>
                 <p>
                   Control the Caps Lock functionality the same way you do on your smartphone! 
