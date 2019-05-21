@@ -66,18 +66,21 @@ pre {
 #what-is-shifted {margin-bottom: 12px;}
 
 #actions-table {}
-#actions-table .row {margin-bottom: 8px; padding-top: 6px; border: none;}
+#actions-table .row {border: none;}
+#actions-table .action {margin: 15px 0;}
 #actions-table strong {display: block; text-align: center;}
 #actions-table em {display: block; text-align: center; margin-bottom: 4px;}
 #actions-table .action div {text-align: center;}
 #actions-table .action div #emoji-wrap {font-size: 28px;}
 #actions-table .action .icon-wrap {display: block; margin-bottom: 8px; text-align: center; font-size: 35px;}
-#actions-table .action .icon-wrap i {color: #888;}
+#actions-table .action .icon-wrap i {color: #e6e6e6;}
 
 i.fas.fa-info-circle {
   cursor: pointer;
 }
-
+.iconTop {
+  color: #ea1d1d !important;
+}
 .popover {
   max-width: 450px;
 }
@@ -102,5 +105,5 @@ i.fas.fa-info-circle {
 }
 
 @media screen and (min-width: 992px) {
-  #actions-table .row {border-top: 1px solid #ccc;}
+  #actions-table .row {border-top: 1px solid #ccc; margin-bottom: 15px; padding-top: 15px;}
 }

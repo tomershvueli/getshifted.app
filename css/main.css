@@ -80,12 +80,11 @@ a:link, a:hover, a:visited, a:active {
     display: flex;
     font-weight: bold;
     padding-bottom: 1px;
+    margin-bottom: 0;
 }
 .headerIcon {
     width: 50px;
     height: 50px;
-    -webkit-clip-path: url(#shape);
-    clip-path: url(#shape);
     margin-right: 15px;
 }
 nav {
@@ -136,6 +135,9 @@ nav>ul li a:hover, nav>ul li a:active {
     height: 120px;
     -webkit-clip-path: url(#shape120);
     clip-path: url(#shape120);
+}
+svg.white-icon path {
+  fill: #fff;
 }
 .appNamePriceContainer {
     display: flex;
@@ -312,7 +314,7 @@ nav>ul li a:hover, nav>ul li a:active {
     color: #e6e6e6;
 }
 .iconTop {
-    color: #1d63ea;
+    color: #ea1d1d;
 }
 .socialIconBack {
     color: #e6e6e6;
