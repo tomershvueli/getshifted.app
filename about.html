@@ -15,7 +15,6 @@
   <meta property="og:url" content="https://getshifted.app" />
   <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
   <meta property="og:description" content="Shifted - Productivity within a Pinky's Reach" />
-  <meta property="og:video" content="http://example.com/bond/trailer.swf" />
 
   <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
@@ -35,10 +34,11 @@
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
-  <title>Shifted - Help</title>
+  <title>Shifted - About</title>
 
   <link href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 
+  <link href="css/shared.css" rel="stylesheet">
   <link href="css/jumbotron.css" rel="stylesheet">
 
   <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -57,18 +57,18 @@
       <nav>
         <ul class="nav nav-pills float-right">
           <li role="presentation" class="nav-item"><a href="/" class="nav-link">Home</a></li>
-          <li role="presentation" class="nav-item"><a href="help.html" class="nav-link active">Help</a></li>
+          <li role="presentation" class="nav-item"><a href="help.html" class="nav-link active">About</a></li>
         </ul>
       </nav>
-      <h3 class="text-muted">Shifted - Help</h3>
+      <h3 class="text-muted">Shifted - About</h3>
     </div>
 
     <div class="row">
       <div class="col-lg-12">
         <h4>What is Shifted?</h4>
-        <div id="what-is-shifted">Shifted is a Mac application intended to increase your productivity by allowing you to self-assign a task to
-          your Caps Lock key, while delegating the Caps Lock function to the Shift keys. Shifted runs in the background
-          letting you focus on the important things. </div>
+        <div id="what-is-shifted">Shifted is a productivity focused Mac application. It allows you to use your Shift keys to toggle Caps Lock (either a double press, or both Shifts together). 
+          You can then specify a function to trigger when you hit Caps Lock. 
+          Shifted runs in the background letting you focus on the important things. </div>
 
         <h4 id="actions">Caps Lock Actions</h4>
         <div class="container-fluid" id="actions-table">
@@ -231,8 +231,8 @@
       </div>
     </div>
 
-    <footer class="footer">
-      <div>&copy; 2019 <a href="http://techbutler.net">Tech Butler, Inc.</a></div>
+    <footer class="container">
+      <p class="footer-text">Made by <a href="http://tomer.shvueli.com?ref=getshifted.app" target="_blank" rel="noopener noreferrer">Tomer</a> from all around the <a href="http://wherethehellaretomerandmichelle.com?ref=getshifted.app" target="_blank" rel="noopener noreferrer"><span role="img" aria-label="World" id="globe"></span></a></p>
     </footer>
 
   </div>
@@ -246,6 +246,7 @@
       $('[data-toggle="popover"]').popover()
     });
   </script>
+<script type="text/javascript" src="js/footer.js"></script>
 </body>
 
 </html>
