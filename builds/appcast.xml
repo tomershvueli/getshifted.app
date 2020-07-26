@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Shifted App Changelog</title>
+    <link>http://getshifted.app/builds/appcast.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+      <item>
+        <title>0.9.2</title>
+        <pubDate>Sun, 26 Jul 2020 11:09:26 -0400</pubDate>
+        <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
+        <enclosure url="http://getshifted.app/builds/Shifted.zip" sparkle:version="16" sparkle:shortVersionString="0.9.1" length="7763699" sparkle:edSignature="v7IVyOn1f6RBWoXJynsooyrQ5ZOSSy/INSPz10vGd0lfrlOUnjhsO6nDCOf3zM2n/ocj35ClM39CvN2GU20kBQ==" type="application/octet-stream"/>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li>
+              <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li>
+              <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li>
+            </ul>
+          ]]>
+        </description>
+      </item>
+  </channel>
+</rss>
