@@ -14,7 +14,7 @@
           <![CDATA[
             <ul>
               <li>Update 'About' links to new web page</li>
-              <li>Update the 'update' mechanism to use the Sparkle framework and transition off of DevMate</li>
+              <li>Update the application's update mechanism to use the Sparkle framework and transition off of DevMate</li>
             </ul>
           ]]>
         </description>
