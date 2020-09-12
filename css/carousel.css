@@ -58,6 +58,8 @@ i.icon-top {
 #my-slider-ow, #my-slider-iw {height: 100%;}
 #my-slider {width: 100%; height: 100%;}
 #my-slider .slide {height: 100%; display: flex; justify-content: center; align-items: center; text-align: center;}
+#my-slider .slide a {color: #5a5a5a;}
+#my-slider .slide a:hover {text-decoration: none;}
 #my-slider .slide .fa-stack {padding-right: 15px;}
 #my-slider .slide .fa-stack-2x {color: #007bff;}
 /* MARKETING CONTENT
