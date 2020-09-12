@@ -68,6 +68,7 @@ pre {
 #what-is-shifted {margin-bottom: 12px;}
 
 #actions-table .row {border: none;}
+#actions-table .pro-mode a {color: #db5e5e;}
 #actions-table .action {margin: 15px 0;}
 #actions-table strong {display: block; text-align: center;}
 #actions-table em {display: block; margin-bottom: 4px;}
