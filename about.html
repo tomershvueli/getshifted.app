@@ -13,7 +13,7 @@
   <meta property="og:title" content="Shifted" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://getshifted.app" />
-  <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
+  <meta property="og:image" content="https://getshifted.app/img/icon.png" />
   <meta property="og:description" content="Shifted - Productivity within a Pinky's Reach" />
 
   <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
@@ -59,6 +59,7 @@
           <li role="presentation" class="nav-item"><a href="/" class="nav-link">Home</a></li>
           <li role="presentation" class="nav-item"><a href="about.html" class="nav-link active">About</a></li>
           <li role="presentation" class="nav-item"><a href="actions.html" class="nav-link">Actions</a></li>
+          <li role="presentation" class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
         </ul>
       </nav>
       <h3 class="text-muted">Shifted - About</h3>
@@ -67,172 +68,175 @@
     <div class="row">
       <div class="col-lg-12">
         <h4>What is Shifted?</h4>
-        <div id="what-is-shifted">Shifted is a productivity focused Mac application. It allows you to use your Shift keys to toggle Caps Lock (either a double press, or both Shifts together). 
-          You can then specify a function to trigger when you hit Caps Lock. 
-          Shifted runs in the background letting you focus on the important things. </div>
+        <div id="what-is-shifted">Shifted is a productivity focused Mac application. It allows you to specify a custom Action that will be triggered when you hit the Caps Lock key. You'll then be able to use your Shift keys to toggle Caps Lock (either a double press, or both Shifts together). Shifted runs in the background letting you focus on the important things.</div>
 
-        <h4 id="actions">Caps Lock Actions</h4>
-        <div class="container-fluid" id="actions-table">
-          <div class="row">
-            <div class="action col-lg-4 col-sm-12">
-              <span class="icon-wrap">
-                <span class="fa-stack fa-1x">
-                  <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                  <i class="iconTop fas fa-exchange-alt fa-stack-1x"></i>
-                </span>
-              </span>
-              <div class="info-wrap">
-                <strong>Previous Application</strong>
-                <em>(For the multi-tasker)</em>
-                <div>Switch to the previous
-                application that had focus.</div>
-              </div>
-            </div>
-            <div class="action col-lg-4 col-sm-12">
-              <span class="icon-wrap">
-                <span class="fa-stack fa-1x">
-                  <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                  <i class="iconTop fas fa-external-link-alt fa-stack-1x"></i>
-                </span>
-              </span>
-              <div class="info-wrap">
-                <strong>New Tab</strong>
-                <em>(For the surfer)</em>
-                <div>Open up a new tab in the current active application,
-                (<pre>⌘ + t</pre>).</div>
-              </div>
-            </div>
-            <div class="action col-lg-4 col-sm-12">
-              <span class="icon-wrap">
-                <span class="fa-stack fa-1x">
-                  <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                  <i class="iconTop fas fa-rocket fa-stack-1x"></i>
-                </span>
-              </span>
-              <div class="info-wrap">
-                <strong>Spotlight</strong>
-                <em>(For the multi-tasker)</em>
-                <div>Open a Spotlight search menu, (<pre>⌘ + Space</pre>).</div>
-              </div>
-            </div>
-          </div>
+        <h4>Shifted FAQ's</h4>
 
-          <div class="row">
-            <div class="action col-lg-4 col-sm-12">
-              <span class="icon-wrap">
-                <span class="fa-stack fa-1x">
-                  <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                  <i class="iconTop fas fa-copy fa-stack-1x"></i>
-                </span>
-              </span>
-              <div class="info-wrap">
-                <strong>Smart Copy & Paste</strong>
-                <em>(For the developer)</em>
-                <div>Alternate between copy and paste commands. This allows for quick transfer of information from one
-                application to another.</div>
-              </div>
+        <dl class="faq">
+          <dt>
+            <div aria-expanded="false" aria-controls="faq1_desc">
+              Where did the inspiration from Shifted come from?
             </div>
-            <div class="action col-lg-4 col-sm-12">
-              <span class="icon-wrap">
-                <span class="fa-stack fa-1x">
-                  <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                  <i class="iconTop fas fa-volume-mute fa-stack-1x"></i>
-                </span>
-              </span>
-              <div class="info-wrap">
-                <strong>Toggle Mute</strong>
-                <em>(For the media-phile)</em>
-                <div>Toggle mute!</div>
-              </div>
-            </div>
-            <div class="action col-lg-4 col-sm-12">
-              <span class="icon-wrap">
-                <span class="fa-stack fa-1x">
-                  <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                  <i class="iconTop fas fa-folder-open fa-stack-1x"></i>
-                </span>
-              </span>
-              <div class="info-wrap">
-                <strong>Open Finder</strong>
-                <em>(For the document manager)</em>
-                <div>Open a new Finder window and bring
-                focus to it.</div>
-              </div>
-            </div>
-          </div>
+          </dt>
+          <dd>
+            <p id="faq1_desc" class="desc">
+              One day I realized how large the Caps Lock key is on the keyboard, even while its functionality is used sparingly. Surely there could be a better use for such prime keyboard real estate, while being able to keep the Caps Lock functionality in tact? Enter Shifted! 
+            </p>
+          </dd>
 
-          <div class="row">
-            <div class="action col-lg-4 col-sm-12">
-              <span class="icon-wrap">
-                <span class="fa-stack fa-1x">
-                  <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                  <i class="iconTop fas fa-smile fa-stack-1x"></i>
-                </span>
-              </span>
-              <div class="info-wrap">
-                <strong>Emoji Selector</strong>
-                <em>(For the avid messenger)</em>
-                <div>Open an easy-access Emoji selector window from anywhere! <br /><span id="emoji-wrap">😝😄🙃😉</span></div>
-              </div>
+          <dt>
+            <div aria-expanded="false" aria-controls="faq2_desc">
+              How do I use Shifted? 
             </div>
-            <div class="action col-lg-4 col-sm-12">
-              <span class="icon-wrap">
-                <span class="fa-stack fa-1x">
-                  <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                  <i class="iconTop fas fa-paragraph fa-stack-1x"></i>
-                </span>
-              </span>
-              <div class="info-wrap">
-                <strong>Type Text</strong>
-                <em>(For the content editor)</em>
-                <div>Set any text that you want to be typed out
-                for you when you hit the Caps Lock key.</div>
-              </div>
-            </div>
-            <div class="action col-lg-4 col-sm-12">
-              <span class="icon-wrap">
-                <span class="fa-stack fa-1x">
-                  <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                  <i class="iconTop fas fa-code fa-stack-1x"></i>
-                </span>
-              </span>
-              <div class="info-wrap">
-                <strong>Run AppleScript</strong>
-                <em>(For the power user)</em>
-                <div>Select an AppleScript file to be
-                triggered when Caps Lock is pressed.</div>
-              </div>
-            </div>
-          </div>
+          </dt>
+          <dd>
+            <p id="faq2_desc" class="desc">
+              ****
+            </p>
+          </dd>
 
-          <div class="row">
-            <div class="action col-lg-4 col-sm-12">
+          <dt>
+            <div aria-expanded="false" aria-controls="faq3_desc">
+              How do I make Shifted part of my daily routine and increase my productivity? 
+            </div>
+          </dt>
+          <dd>
+            <p id="faq3_desc" class="desc">
+              <ul>
+                <li>Be sure you've checked the 'Start At Login' option in the Shifted drop down menu to ensure that it's always available for you. </li>
+                <li>Test different <a href="actions.html">Actions</a> and see what makes the most sense for your daily workflow. </li>
+                <li>Use your Shift keys to toggle Caps Lock functionality. </li>
+                <li>Watch your productivity increase! </li>
+              </ul>
+            </p>
+          </dd>
 
+          <dt>
+            <div aria-expanded="false" aria-controls="faq4_desc">
+              What are Actions? 
             </div>
-            <div class="action col-lg-4 col-sm-12">
-              <span class="icon-wrap">
-                <span class="fa-stack fa-1x">
-                  <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                  <i class="iconTop fas fa-search fa-stack-1x"></i>
-                </span>
-              </span>
-              <div class="info-wrap">
-                <strong>Search Selected Text</strong>
-                <em>(For the knowledge-seeker)</em>
-                <div>Copy the selected text and start a search for the text
-                  in your default browser. <i class="fas fa-info-circle d-none d-md-inline-block" data-toggle="popover" data-html="true" data-placement="top" data-content="You can customize the search URL by using '%s' for the copied text. For example, try Google's I'm Feeling Lucky: &lt;pre&gt;http://www.google.com/search?q=%s&btnI&lt;/pre&gt;, or Wikipedia's search: &lt;pre&gt;https://en.wikipedia.org/wiki/Special:Search/%s&lt;/pre&gt;."></i>
-                </div>
-              </div>
-            </div>
-            <div class="action col-lg-4 col-sm-12">
+          </dt>
+          <dd>
+            <p id="faq4_desc" class="desc">
+              Actions are different operations that are triggered by the Caps Lock key. You can select an Action you'd like to use frequently instead of Caps Lock from the Shifted drop down menu. Your selected Action will now activate whenever you hit the Caps Lock key. 
+            </p>
+          </dd>
 
+          <dt>
+            <div aria-expanded="false" aria-controls="faq7_desc">
+              Which Actions are available? 
             </div>
-          </div>
-        </div>
+          </dt>
+          <dd>
+            <p id="faq7_desc" class="desc">
+              <a href="actions.html">See here</a> for a list of all current available Actions.
+            </p>
+          </dd>
+
+          <dt>
+            <div aria-expanded="false" aria-controls="faq8_desc">
+              What if I want an action that isn't available? 
+            </div>
+          </dt>
+          <dd>
+            <p id="faq8_desc" class="desc">
+              **** Get in touch with me to let me know what Action you'd love to see as part of Shifted! I'll do my best to accommodate you! 
+            </p>
+          </dd>
+
+          <dt>
+            <div aria-expanded="false" aria-controls="faq9_desc">
+              How does the 'Smart Copy & Paste' Action work? 
+            </div>
+          </dt>
+          <dd>
+            <p id="faq9_desc" class="desc">
+              I'm glad you asked! This is an experimental feature and ****I'd love to hear what you think about it! The Smart Copy & Paste Action alternates between the Copy and the Paste commands. This is useful for quick transfer of information between 2 applications, for example, copying a secret key from a web console to a text editor. When this Action is selected, it also monitors your clipboard (locally, never sending any information to a server), so if text is copied by the system, the next command triggered by the Smart Copy & Paste Action will be Paste. 
+            </p>
+          </dd>
+
+          <dt>
+            <div aria-expanded="false" aria-controls="faq10_desc">
+              What is the 'Run AppleScript' Action? 
+            </div>
+          </dt>
+          <dd>
+            <p id="faq10_desc" class="desc">
+              <a href="https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html" target="_blank" rel="noopener noreferrer">AppleScript</a> is a scripting language that can be used to control and automate Mac applications and your system. The Run AppleScript Action will allow you to select an AppleScript file (<code>.scpt</code> extension) that will be run whenever you hit the Caps Lock key. 
+            </p>
+          </dd>
+
+          <dt>
+            <div aria-expanded="false" aria-controls="faq11_desc">
+              What are Actions? 
+            </div>
+          </dt>
+          <dd>
+            <p id="faq11_desc" class="desc">
+              Actions are different operations that are triggered by the Caps Lock key. You can select an Action you'd like to use frequently instead of Caps Lock from the Shifted drop down menu. Your selected Action will now activate whenever you hit the Caps Lock key. 
+            </p>
+          </dd>
+
+          <dt>
+            <div aria-expanded="false" aria-controls="faq12_desc">
+              How does the 'Custom Search' Action work? 
+            </div>
+          </dt>
+          <dd>
+            <p id="faq12_desc" class="desc">
+              You can provide the Custom Search Action a URL and include a '%s' which will be replaced by the copied text. For example, try Google's I'm Feeling Lucky: <code>http://www.google.com/search?q=%s&btnI</code>, or Wikipedia's search: <code>https://en.wikipedia.org/wiki/Special:Search/%s</code>.
+            </p>
+          </dd>
+
+          <dt>
+            <div aria-expanded="false" aria-controls="faq13_desc">
+              What is Pro Mode? 
+            </div>
+          </dt>
+          <dd>
+            <p id="faq13_desc" class="desc">
+              Not all Actions and Shifted functionality is free to use. To unlock all Actions and functionality, you should upgrade to Pro Mode! 
+            </p>
+          </dd>
+
+          <dt>
+            <div aria-expanded="false" aria-controls="faq14_desc">
+              Why isn't Shifted free? 
+            </div>
+          </dt>
+          <dd>
+            <p id="faq14_desc" class="desc">
+              Pro Mode helps make sure that Shifted can be upgraded over time, supported with new versions, and is delivering fresh, hot off the press Actions. 
+            </p>
+          </dd>
+
+          <dt>
+            <div aria-expanded="false" aria-controls="faq15_desc">
+              Can I get a discount for Shifted? 
+            </div>
+          </dt>
+          <dd>
+            <p id="faq15_desc" class="desc">
+              ****If you are a cancer survivor or an ongoing fighter, please get in touch with me and I'm sure we can make something work. Also, get in touch with me if you want to purchase a license for multiple users/teams at once. Thanks! 
+            </p>
+          </dd>
+
+          <dt>
+            <div aria-expanded="false" aria-controls="faq16_desc">
+              I have more questions, where can I get answers? 
+            </div>
+          </dt>
+          <dd>
+            <p id="faq16_desc" class="desc">
+              **** Feel free to get in touch with me! 
+            </p>
+          </dd>
+
+        </dl>
       </div>
     </div>
 
-    <footer class="container">
+    <footer>
       <p class="footer-text">Made by <a href="http://tomer.shvueli.com?ref=getshifted.app" target="_blank" rel="noopener noreferrer">Tomer</a> from all around the <a href="http://wherethehellaretomerandmichelle.com?ref=getshifted.app" target="_blank" rel="noopener noreferrer"><span role="img" aria-label="World" id="globe"></span></a></p>
     </footer>
 
