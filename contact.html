@@ -70,9 +70,9 @@
         <h4>We Want to Hear from You!</h4>
 
         <form class="form-horizontal col-sm-12 contact" name="contact" method="POST" data-netlify="true">
-          <div class="form-group"><label>Name</label><input name="name" class="form-control required" placeholder="Your name" data-placement="top" data-trigger="manual" data-content="Must be at least 3 characters long, and must only contain letters." type="text"></div>
-          <div class="form-group"><label>Message</label><textarea name="message" class="form-control required" placeholder="Your message here.." data-placement="top" data-trigger="manual" data-content="Please enter a message." type="text"></textarea></div>
-          <div class="form-group"><label>Email</label><input name="email" class="form-control email required" placeholder="email@you.com (so that we can contact you)" data-placement="top" data-trigger="manual" data-content="Must be a valid e-mail address (user@gmail.com)" type="text"></div>
+          <div class="form-group"><label>Name</label><input name="name" class="form-control required" placeholder="Your name" type="text" required></div>
+          <div class="form-group"><label>Email</label><input name="email" class="form-control email required" placeholder="email@you.com (so that we can contact you)" type="email" required></div>
+          <div class="form-group"><label>Message</label><textarea name="message" class="form-control required" placeholder="Your message here.." type="text" required></textarea></div>
           <div class="form-group"><button type="submit" class="btn btn-success pull-right">Send It!</button></div>
         </form>
 
